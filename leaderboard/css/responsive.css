@@ -1,0 +1,51 @@
+/* Mobile Screen */
+@media only screen and (max-width:688px) {
+   
+.container{
+    width: 500px;
+}
+.header{
+    background-color: #562EFF;
+    height: 115px;
+
+}
+.menu-bar{
+    color: #ffff;
+    padding-top: 10px;
+    display: block;
+}
+
+.logo{
+   justify-content: center !important;
+   align-items: center !important;
+}
+.menu ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.players-info{
+    
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-row-gap: 20px;
+    
+}
+.blogs-info{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    margin: 25px 0 ;
+}
+.blog-info{
+    margin-top: 15px;
+}
+.courses-info{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    margin: 15px 0 ;
+}
+.course-info{
+    margin-top: 25px;
+
+}
+}
