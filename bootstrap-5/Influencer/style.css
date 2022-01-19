@@ -1,0 +1,11 @@
+* {
+    outline: 0px solid red;
+    list-style: none;
+
+}
+a,
+.nav-link{
+    text-decoration: none;
+    color: black;
+}
+
